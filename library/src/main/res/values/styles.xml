@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoPhotoLayout">
+        <attr name="apl_itemSpace" format="reference"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="92929djfkdkk"
+        android:background="@color/colorAccent"
+        android:gravity="center"/>
+
+    <io.github.freeman0211.library.apl.AutoPhotoLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/apl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        app:apl_itemSpace="@dimen/divide"/>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
